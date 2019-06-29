@@ -45,15 +45,7 @@ public:
 
         set_iterator() : ptr(nullptr) {}
 
-        template<typename OTHER_TYPE>
-        set_iterator(set_iterator<OTHER_TYPE> const &data,
-                     typename std::enable_if<std::is_same<const OTHER_TYPE, V>::value, void>::type * = 0)
-                : ptr(data.ptr) {}
-
-        template<typename OTHER_TYPE>
-        set_iterator(set_iterator<OTHER_TYPE> const &data,
-                     typename std::enable_if<std::is_same<OTHER_TYPE, const V>::value, void>::type * = 0)
-                : ptr(data.ptr) {}
+        set_iterator(set_iterator const &other) : ptr(other.ptr) {}
 
         set_iterator &operator++() {
             if (ptr->right != nullptr) {
