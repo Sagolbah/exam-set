@@ -1,0 +1,8 @@
+/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/CMakeFiles/std.dir
+/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/CMakeFiles/counted.dir
+/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/CMakeFiles/run_test.dir
+/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/gtest/CMakeFiles/rebuild_cache.dir
+/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/gtest/CMakeFiles/edit_cache.dir
+/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/gtest/CMakeFiles/gtest.dir

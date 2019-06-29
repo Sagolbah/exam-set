@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\gtest\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="std">
+				<Option output="/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/std" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sagolbah/SPbITMO/C++/homeworks/exam2/year2018-list-testing"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 std"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="std/fast">
+				<Option output="/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/std" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sagolbah/SPbITMO/C++/homeworks/exam2/year2018-list-testing"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 std/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="counted">
+				<Option output="/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/libcounted.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sagolbah/SPbITMO/C++/homeworks/exam2/year2018-list-testing"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 counted"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="counted/fast">
+				<Option output="/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/libcounted.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sagolbah/SPbITMO/C++/homeworks/exam2/year2018-list-testing"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 counted/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run_test">
+				<Option output="/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/run_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sagolbah/SPbITMO/C++/homeworks/exam2/year2018-list-testing"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 run_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run_test/fast">
+				<Option output="/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/run_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sagolbah/SPbITMO/C++/homeworks/exam2/year2018-list-testing"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 run_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/gtest/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sagolbah/SPbITMO/C++/homeworks/exam2/year2018-list-testing"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/gtest/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sagolbah/SPbITMO/C++/homeworks/exam2/year2018-list-testing"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sagolbah/SPbITMO/C++/homeworks/exam2/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/sagolbah/SPbITMO/C++/homeworks/exam2/counted.cpp">
+			<Option target="counted"/>
+		</Unit>
+		<Unit filename="/home/sagolbah/SPbITMO/C++/homeworks/exam2/counted.h">
+			<Option target="counted"/>
+		</Unit>
+		<Unit filename="/home/sagolbah/SPbITMO/C++/homeworks/exam2/fault_injection.cpp">
+			<Option target="counted"/>
+		</Unit>
+		<Unit filename="/home/sagolbah/SPbITMO/C++/homeworks/exam2/fault_injection.h">
+			<Option target="counted"/>
+		</Unit>
+		<Unit filename="/home/sagolbah/SPbITMO/C++/homeworks/exam2/gtest/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/home/sagolbah/SPbITMO/C++/homeworks/exam2/gtest/gtest.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/home/sagolbah/SPbITMO/C++/homeworks/exam2/gtest/gtest_main.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/home/sagolbah/SPbITMO/C++/homeworks/exam2/list.h">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/sagolbah/SPbITMO/C++/homeworks/exam2/set.h">
+			<Option target="run_test"/>
+		</Unit>
+		<Unit filename="/home/sagolbah/SPbITMO/C++/homeworks/exam2/std.cpp">
+			<Option target="std"/>
+		</Unit>
+		<Unit filename="/home/sagolbah/SPbITMO/C++/homeworks/exam2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/sagolbah/SPbITMO/C++/homeworks/exam2/gtest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtest\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
